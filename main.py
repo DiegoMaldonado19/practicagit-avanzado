@@ -1,5 +1,5 @@
 def add(left, right):
-    return left + 5
+    return left + 6
 
 
 def subtract(left, right):
