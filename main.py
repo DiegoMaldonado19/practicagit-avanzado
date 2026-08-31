@@ -67,3 +67,16 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+def show_menu():
+    print("""
+========================
+   MENÚ PRINCIPAL
+========================
+1. Registrar persona
+2. Ver personas
+3. Calculadora
+4. Salir
+========================""")
+
+print(f"Resultado: {left} {symbol} {right} = {resultado}")
