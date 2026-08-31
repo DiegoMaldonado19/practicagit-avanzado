@@ -62,6 +62,7 @@ def run_calculator():
 
 def main():
     show_person(read_person())
+    print("PRINT MAIN HECHO POR DIEGO")
     run_calculator()
 
 
