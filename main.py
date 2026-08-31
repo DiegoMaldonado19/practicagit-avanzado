@@ -30,7 +30,7 @@ def read_person():
         "name": input("Name: "),
         "last_name": input("Last name: "),
         "age": read_int("Age: "),
-        "birth_date": input("Birth date (dd/mm/yyyy): "),
+        "birth_date": input("Fecha nacimiento (dd/mm/yyyy): "),
         "sex": input("Sex (M/F): "),
     }
 
