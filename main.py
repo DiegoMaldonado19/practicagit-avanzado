@@ -22,7 +22,7 @@ def read_int(prompt):
         try:
             return int(input(prompt))
         except ValueError:
-            print("Enter a whole number")
+            print("Ingresa una linea nueva")
 
 
 def read_person():
