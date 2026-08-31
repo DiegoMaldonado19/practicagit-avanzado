@@ -81,3 +81,4 @@ def show_menu():
 ========================""")
 
 print(f"Resultado: {left} {symbol} {right} = {resultado}")
+# Trabajo importante de Melanni - no perder
