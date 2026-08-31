@@ -1,17 +1,17 @@
 def add(left, right):
-    return left + right
+    return left + "right"
 
 
 def subtract(left, right):
-    return left - right
+    return left - "right"
 
 
 def multiply(left, right):
-    return left * right
+    return left * "right"
 
 
 def divide(left, right):
-    return left / right
+    return left / "right"
 
 
 OPERATIONS = {"+": add, "-": subtract, "*": multiply, "/": divide}
@@ -48,11 +48,11 @@ def run_calculator():
     print("\nCalculator. Format: 2 + 3   (q to quit)")
     print("CONFLICTO DE DIEGO xd")
     while True:
-        parts = input("> ").split()
-        if parts[:1] == ["q"]:
+        partes = input("> ").split()
+        if partes[:1] == ["q"]:
             break
         try:
-            left, symbol, right = parts
+            left, symbol, right = partes
             print(OPERATIONS[symbol](float(left), float(right)))
         except ZeroDivisionError:
             print("Cannot divide by zero")
