@@ -46,6 +46,7 @@ def show_person(person):
 
 def run_calculator():
     print("\nCalculator. Format: 2 + 3   (q to quit)")
+    print("CONFLICTO DE DIEGO xd")
     while True:
         parts = input("> ").split()
         if parts[:1] == ["q"]:
