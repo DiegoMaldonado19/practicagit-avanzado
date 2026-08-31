@@ -28,7 +28,7 @@ def read_int(prompt):
 def read_person():
     return {
         "name": input("Name: "),
-        "last_name": input("Last name: "),
+        "last_name": input("Apellido: "),
         "age": read_int("Age: "),
         "birth_date": input("Birth date (dd/mm/yyyy): "),
         "sex": input("Sex (M/F): "),
