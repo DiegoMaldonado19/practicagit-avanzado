@@ -75,8 +75,6 @@ def show_menu():
    MENÚ PRINCIPAL
 ========================
 1. Registrar persona
-2. Ver personas
-3. Calculadora
 4. Salir
 ========================""")
 
